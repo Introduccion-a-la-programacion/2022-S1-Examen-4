@@ -32,7 +32,7 @@ Esto fue un ejercicio en clase que se realizó en forma Iterativa, ahora usted d
   - Hora de entrada : String debe registrar la hora y minuto de entrada, ej: 15:30
 
 - Debe crearse el **constructor** en donde se inicializan sus atributos
-- Debe tener un funcion llamado **mostrar()** que mostrará un string con el valor concatenado de "Placa: ABC-123 hora de ingreso: 15:30"
+- Debe tener una funcion llamado **mostrar()** que mostrará un string con el valor concatenado de "Placa: ABC-123 hora de ingreso: 15:30"
 
 ## Clase Parqueo (Programación Orientada a Objetos e Iteración)
 
