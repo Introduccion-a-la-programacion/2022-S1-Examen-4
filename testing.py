@@ -1,4 +1,4 @@
-import examen4;
+import Examen4;
 import pytest;
 
 
