@@ -14,7 +14,7 @@ def test_parqueo4():
   assert parqueo.totalVehiculos() == 2
   
 def test_parqueo5():
-  assert isinstance(str(parqueo.agregarVehiculo('GHJ888', '11:00'), str) == isinstance('Parqueo lleno', str)
+  assert isinstance(str(parqueo.agregarVehiculo('GHJ888', '11:00')), str) == isinstance('Parqueo lleno', str)
   
 def test_parqueo7():
   assert parqueo.totalVehiculos() == 1
