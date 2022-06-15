@@ -34,6 +34,15 @@ Esto fue un ejercicio en clase que se realizó en forma Iterativa, ahora usted d
 - Debe crearse el **constructor** en donde se inicializan sus atributos
 - Debe tener una funcion llamado **mostrar()** que mostrará un string con el valor concatenado de "Placa: ABC-123 hora de ingreso: 15:30"
 
+```python
+>>> veh1 = Vehiculo('ABC-123', '10:23')
+
+>>>veh1.mostrar()
+'Placa: ABC-123 hora de ingreso: 10:23'
+
+```
+
+
 ## Clase Parqueo (Programación Orientada a Objetos e Iteración)
 
 - Escriba en python los métodos necesarios para recrear un **Parqueo**. 
@@ -58,24 +67,24 @@ Los métodos a crear son:
 >>> parqueo.datosParqueo()
 'San José, El parqueo con capacidad 2'
 
->>>agregarVehiculo('ABC132', '12:00')
+>>>parqueo.agregarVehiculo('ABC132', '12:00')
 
->>>agregarVehiculo('DFG888', '11:00')
+>>>parqueo.agregarVehiculo('DFG888', '11:00')
 
->>>totalVehiculos()
+>>>parqueo.totalVehiculos()
 2
 
->>>agregarVehiculo('GHJ888', '11:00')
+>>>parqueo.agregarVehiculo('GHJ888', '11:00')
 'Parqueo lleno'
 
->>>quitarVehiculo('ABC132')
+>>>parqueo.quitarVehiculo('ABC132')
 
->>>totalVehiculos()
+>>>parqueo.totalVehiculos()
 1
 
->>>agregarVehiculo('GHJ888', '11:00')
+>>>parqueo.agregarVehiculo('GHJ888', '11:00')
 
->>>mostrarVehiculos()
+>>>parqueo.mostrarVehiculos()
 ['DFG888', 'GHJ888']
 
 ```
