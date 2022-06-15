@@ -37,7 +37,7 @@ Esto fue un ejercicio en clase que se realizó en forma Iterativa, ahora usted d
 ```python
 >>> veh1 = Vehiculo('ABC-123', '10:23')
 
->>>veh1.mostrar()
+>>> veh1.mostrar()
 'Placa: ABC-123 hora de ingreso: 10:23'
 
 ```
